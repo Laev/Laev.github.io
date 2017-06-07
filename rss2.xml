@@ -8,48 +8,32 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>我是一个平凡的人，但是我要有一个不平凡的世界。</description>
-    <pubDate>Wed, 07 Jun 2017 09:35:54 GMT</pubDate>
+    <pubDate>Wed, 07 Jun 2017 12:06:16 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>article title</title>
-      <link>http://laev.club/2017/05/22/article-title/</link>
-      <guid>http://laev.club/2017/05/22/article-title/</guid>
-      <pubDate>Mon, 22 May 2017 13:22:52 GMT</pubDate>
-      <description>
-      
-        &lt;h3 id=&quot;这是一个测试页面&quot;&gt;&lt;a href=&quot;#这是一个测试页面&quot; class=&quot;headerlink&quot; title=&quot;这是一个测试页面&quot;&gt;&lt;/a&gt;这是一个测试页面&lt;/h3&gt;
-      
-      </description>
-      
-      <content:encoded><![CDATA[<h3 id="这是一个测试页面"><a href="#这是一个测试页面" class="headerlink" title="这是一个测试页面"></a>这是一个测试页面</h3>]]></content:encoded>
-      
-      <comments>http://laev.club/2017/05/22/article-title/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>Hello World</title>
-      <link>http://laev.club/2017/05/22/hello-world/</link>
-      <guid>http://laev.club/2017/05/22/hello-world/</guid>
+      <link>http://laev.club/2017/05/22/%E5%BF%83%E5%BC%A6/</link>
+      <guid>http://laev.club/2017/05/22/%E5%BF%83%E5%BC%A6/</guid>
       <pubDate>Mon, 22 May 2017 09:52:28 GMT</pubDate>
       <description>
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;p&gt;时间的轨迹霸道得像一匹马，对于它，我们的生活就像任之践踏一马平川的草原。&lt;/p&gt;
+&lt;p&gt;然而纵使留在再深的痕迹，这片地方还是要有存留下去的意义。&lt;/p&gt;
+&lt;p&gt;存留的意义变成存留的理由，而又在存留的过程中产生。&lt;/p&gt;
+&lt;p&gt;那在苦难中挣扎的人，并不垂死，而是在绚烂的阳光中
       
       </description>
       
-      <content:encoded><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+      <content:encoded><![CDATA[<p>时间的轨迹霸道得像一匹马，对于它，我们的生活就像任之践踏一马平川的草原。</p>
+<p>然而纵使留在再深的痕迹，这片地方还是要有存留下去的意义。</p>
+<p>存留的意义变成存留的理由，而又在存留的过程中产生。</p>
+<p>那在苦难中挣扎的人，并不垂死，而是在绚烂的阳光中扎根生长，去争取自己的一方天地。</p>
+<p>我是一棵平凡的树，但我要护这一方天地。</p>
+<p>我是一个平凡的人，但我要有一个不平凡的世界。</p>
 ]]></content:encoded>
       
-      <comments>http://laev.club/2017/05/22/hello-world/#disqus_thread</comments>
+      <comments>http://laev.club/2017/05/22/%E5%BF%83%E5%BC%A6/#disqus_thread</comments>
     </item>
     
   </channel>
