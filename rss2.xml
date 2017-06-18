@@ -8,8 +8,45 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>我是一个平凡的人，但是我要有一个不平凡的世界。</description>
-    <pubDate>Wed, 07 Jun 2017 12:07:14 GMT</pubDate>
+    <pubDate>Sun, 18 Jun 2017 17:47:24 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>简析CommonJs AMD和CMD</title>
+      <link>http://laev.club/2017/06/18/%E7%AE%80%E6%9E%90CommonJs-AMD%E5%92%8CCMD/</link>
+      <guid>http://laev.club/2017/06/18/%E7%AE%80%E6%9E%90CommonJs-AMD%E5%92%8CCMD/</guid>
+      <pubDate>Sun, 18 Jun 2017 15:39:26 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;本篇文章将最快地帮助你弄懂CommonJs、AMD、CMD这三种规范的区别及优缺点。&lt;/p&gt;
+&lt;p&gt;首先你得知道它们是什么！在此之前我也对它们没有明确的认识，充其量不过只知道它们是三种js规范。下面进入正题。&lt;/p&gt;
+&lt;p&gt;CommonJs是一个偏向于服务端的规范，是同步加
+      
+      </description>
+      
+      <content:encoded><![CDATA[<p>本篇文章将最快地帮助你弄懂CommonJs、AMD、CMD这三种规范的区别及优缺点。</p>
+<p>首先你得知道它们是什么！在此之前我也对它们没有明确的认识，充其量不过只知道它们是三种js规范。下面进入正题。</p>
+<p>CommonJs是一个偏向于服务端的规范，是同步加载模块的(浏览器同步加载模块会导致速度、性能、可用性、调试和跨域访问等问题)。CommonJS定义的模块分为：模块引用(require)、模块定义(exports)、模块标识(module)，nodejs目前就采用了这种规范，而它在于nodejs里，一个文件就相当于一个模块，<strong>require</strong>用于引入外部模块读取文件并执行；<strong>exports</strong>是用于导出当前模块方法或变量的唯一导出口的一个对象；<strong>module</strong>对象就代表模块本身。而CommonJs也不能直接被浏览器解析加载，根本原因在于它缺少四个NodeJs环境的变module、exports、require、global。</p>
+<p>AMD是”Asynchronous Module Definition”的缩写，意思是”异步模块定义”。它解决了CommonJs同步加载模块的问题，除此之外它还可以<strong>提前执行</strong>且推崇<strong>依赖就近</strong>，AMD也采用require语句加载模块，但是不同于CommonJS，它要求两个参数：<strong>require([module], callback)</strong>，所有依赖这个模块的语句，都定义在一个回调函数中，等到加载完成之后，这个回调函数才会运行。RequireJs就是实现了AMD规范，而它就是为了解决<strong>实现js文件的异步加载，避免网页失去响应和实现js文件的异步加载，避免网页失去响应</strong>。</p>
+<p>CMD规范是淘宝的玉伯大牛为了推广seajs而产出的，而它相对于AMD来讲，它是<strong>延迟执行</strong>且推崇<strong>依赖前置</strong>，与AMD用许多相似之处，使用上也有不同的地方，CMD中当需要依赖模块的时候，在当前用require引入即可，但是AMD标准则需要提前在头部依赖参数部分写好。</p>
+<p>接下来是它们的区别及优缺点的总结。</p>
+<ul>
+<li><p><strong>1.ComonJs/AMD/CMD目前所对应的分别是NodeJs/RequireJs/SeaJs ，另外他们都是js模块化开发的标准</strong>。</p>
+</li>
+<li><p><strong>2.CommonJs主要针对服务端，AMD/CMD主要针对浏览器端</strong></p>
+</li>
+<li><p><strong>3.AMD/CMD，都有difine和require，而且调用方式实际都可以添加依赖参数(不推荐)，另外都是并行加载js文件；区别是AMD是预加载，在并行加载js文件同时，还会解析执行该模块（因为还需要执行，所以在加载某个模块前，这个模块的依赖模块需要先加载完成）；而CMD是懒加载，虽然会一开始就并行加载js文件，但是不会执行，而是在需要的时候才执行。CMD 推崇依赖就近，AMD 推崇依赖前置。AMD的API默认是一个当多个用，CMD的API严格区分，推崇职责单一。</strong> 比如AMD里，require 分全局require和局部require。CMD里，没有全局require，而是根据模块系统的完备性，提供 seajs.use 来实现模块系统的加载启动。</p>
+</li>
+</ul>
+<p><strong>AMD优点：加载快速，尤其遇到多个大文件，因为并行解析，所以同一时间可以解析多个文件。</strong></p>
+<p><strong>AMD缺点：并行加载，异步处理，加载顺序不一定，可能会造成一些困扰，甚至为程序埋下大坑。</strong></p>
+<p><strong>CMD优点：因为只有在使用的时候才会解析执行js文件，因此，每个JS文件的执行顺序在代码中是有体现的，是可控的。</strong></p>
+<p><strong>CMD缺点：执行等待时间会叠加。因为每个文件执行时是同步执行（串行执行），因此时间是所有文件解析执行时间之和，尤其在文件较多较大时，这种缺点尤为明显。</strong></p>
+<p>ps：目前对于这三种的规范就这些，有误之处还望指正，对于使用方法在这就不赘述了。</p>
+]]></content:encoded>
+      
+      <comments>http://laev.club/2017/06/18/%E7%AE%80%E6%9E%90CommonJs-AMD%E5%92%8CCMD/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>生长</title>
