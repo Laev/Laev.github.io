@@ -4,7 +4,7 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Laev`Club</title>
-    <link>http://laev.club/</link>
+    <link>http://www.laev.club/</link>
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>我是一个平凡的人，但是我要有一个不平凡的世界。</description>
@@ -13,8 +13,8 @@
     
     <item>
       <title>一个canvas小案例</title>
-      <link>http://laev.club/2017/06/29/%E4%B8%80%E4%B8%AAcanvas%E5%B0%8F%E6%A1%88%E4%BE%8B/</link>
-      <guid>http://laev.club/2017/06/29/%E4%B8%80%E4%B8%AAcanvas%E5%B0%8F%E6%A1%88%E4%BE%8B/</guid>
+      <link>http://www.laev.club/2017/06/29/%E4%B8%80%E4%B8%AAcanvas%E5%B0%8F%E6%A1%88%E4%BE%8B/</link>
+      <guid>http://www.laev.club/2017/06/29/%E4%B8%80%E4%B8%AAcanvas%E5%B0%8F%E6%A1%88%E4%BE%8B/</guid>
       <pubDate>Thu, 29 Jun 2017 10:30:31 GMT</pubDate>
       <description>
       
@@ -38,13 +38,13 @@
 <p>ps：大多数知识点在代码中有所注释，当然这只是闲来无事的一个小案例，凭这么点代码是无法学会canvas的，还要多多练习，多写写小案例。</p>
 ]]></content:encoded>
       
-      <comments>http://laev.club/2017/06/29/%E4%B8%80%E4%B8%AAcanvas%E5%B0%8F%E6%A1%88%E4%BE%8B/#disqus_thread</comments>
+      <comments>http://www.laev.club/2017/06/29/%E4%B8%80%E4%B8%AAcanvas%E5%B0%8F%E6%A1%88%E4%BE%8B/#disqus_thread</comments>
     </item>
     
     <item>
       <title>简析CommonJs AMD和CMD</title>
-      <link>http://laev.club/2017/06/18/%E7%AE%80%E6%9E%90CommonJs-AMD%E5%92%8CCMD/</link>
-      <guid>http://laev.club/2017/06/18/%E7%AE%80%E6%9E%90CommonJs-AMD%E5%92%8CCMD/</guid>
+      <link>http://www.laev.club/2017/06/18/%E7%AE%80%E6%9E%90CommonJs-AMD%E5%92%8CCMD/</link>
+      <guid>http://www.laev.club/2017/06/18/%E7%AE%80%E6%9E%90CommonJs-AMD%E5%92%8CCMD/</guid>
       <pubDate>Sun, 18 Jun 2017 15:39:26 GMT</pubDate>
       <description>
       
@@ -75,13 +75,13 @@
 <p>ps：目前对于这三种的规范就这些，有误之处还望指正，对于使用方法在这就不赘述了。</p>
 ]]></content:encoded>
       
-      <comments>http://laev.club/2017/06/18/%E7%AE%80%E6%9E%90CommonJs-AMD%E5%92%8CCMD/#disqus_thread</comments>
+      <comments>http://www.laev.club/2017/06/18/%E7%AE%80%E6%9E%90CommonJs-AMD%E5%92%8CCMD/#disqus_thread</comments>
     </item>
     
     <item>
       <title>生长</title>
-      <link>http://laev.club/2017/05/22/%E5%BF%83%E5%BC%A6/</link>
-      <guid>http://laev.club/2017/05/22/%E5%BF%83%E5%BC%A6/</guid>
+      <link>http://www.laev.club/2017/05/22/%E5%BF%83%E5%BC%A6/</link>
+      <guid>http://www.laev.club/2017/05/22/%E5%BF%83%E5%BC%A6/</guid>
       <pubDate>Mon, 22 May 2017 09:52:28 GMT</pubDate>
       <description>
       
@@ -100,7 +100,7 @@
 <p>我是一个平凡的人，但我要有一个不平凡的世界。</p>
 ]]></content:encoded>
       
-      <comments>http://laev.club/2017/05/22/%E5%BF%83%E5%BC%A6/#disqus_thread</comments>
+      <comments>http://www.laev.club/2017/05/22/%E5%BF%83%E5%BC%A6/#disqus_thread</comments>
     </item>
     
   </channel>
