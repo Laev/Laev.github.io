@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.laev.club/sitemap.xml
+Sitemap: http://www.laev.club/baidusitemap.xml
